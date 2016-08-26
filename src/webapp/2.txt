@@ -1,0 +1,23 @@
+
+
+
+private List<String> pathFilters = Arrays.asList(new String[] {"Login.jsp"});
+
+
+String uri = ((HttpServletRequest) request).getRequestURI();
+		String path = StringUtils.substringAfterLast(uri, "/");
+
+		if (!pathFilters.contains(path)) {
+
+			
+			 filterChaine.doFilter(request, response);
+			 return;
+			
+		}
+
+
+
+return;
+
+
+привет  привет привет привет привет привет привет привет  привет

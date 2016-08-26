@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1487" started-at="2016-08-26T09:19:05Z" finished-at="2016-08-26T09:19:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1487" started-at="2016-08-26T09:19:05Z" finished-at="2016-08-26T09:19:06Z">
+      <class name="lesson11.SqlMarkDaoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="setUp" is-config="true" duration-ms="893" started-at="2016-08-26T11:19:05Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteMarkTest()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="deleteMarkTest" duration-ms="143" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMarkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="tearDown" is-config="true" duration-ms="9" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="setUp" is-config="true" duration-ms="84" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertMarkTest()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="insertMarkTest" duration-ms="48" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertMarkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="setUp" is-config="true" duration-ms="47" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectAllMarksTest()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="selectAllMarksTest" duration-ms="10" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllMarksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="setUp" is-config="true" duration-ms="119" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectMarkTest()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="selectMarkTest" duration-ms="10" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMarkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="setUp" is-config="true" duration-ms="50" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateMarkTest()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="updateMarkTest" duration-ms="15" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMarkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lesson11.SqlMarkDaoTest@6a024a67]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-08-26T11:19:06Z" finished-at="2016-08-26T11:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lesson11.SqlMarkDaoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

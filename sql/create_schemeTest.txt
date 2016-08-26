@@ -1,0 +1,37 @@
+CREATE SCHEMA `daotalkTest` DEFAULT CHARACTER SET utf8 ;
+
+CREATE  TABLE IF NOT EXISTS `daotalkTest`.`User` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `username` VARCHAR(45) NOT NULL ,
+  `password` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id`) 
+  )
+  ;
+
+
+CREATE  TABLE IF NOT EXISTS `daotalkTest`.`Group` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `number` INT NOT NULL ,
+  `department` VARCHAR(45) NULL ,
+  PRIMARY KEY (`id`) 
+  )
+  ;
+
+CREATE  TABLE IF NOT EXISTS `daotalkTest`.`Student` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(45) NULL ,
+  `surname` VARCHAR(45) NULL ,
+  `enrolment_date` DATE NULL ,
+  `group_id` INT ,
+  PRIMARY KEY (`id`) 
+  )
+  ;
+
+  CREATE  TABLE IF NOT EXISTS `daotalkTest`.`Mark` (
+  `id` INT NOT NULL AUTO_INCREMENT ,
+  `student_id` INT NOT NULL,
+  `mark` INT ,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`student_id`) REFERENCES `Student`(`id`) ON UPDATE CASCADE ON DELETE CASCADE
+  )
+  ;
